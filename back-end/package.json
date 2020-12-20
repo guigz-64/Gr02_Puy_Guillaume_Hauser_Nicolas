@@ -9,7 +9,7 @@
     "start": "nodemon bin/start --exec babel-node --",
     "test": "mocha --require esm 'test/**/*.js'"
   },
-  "author": "Hauser Puy",
+  "author": "PUY/HAUSER",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",

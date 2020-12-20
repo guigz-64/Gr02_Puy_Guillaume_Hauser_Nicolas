@@ -14,7 +14,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
   res.send([
-    '<h1>Our Messaging Chat App</h1>'
+    '<h1>ECE DevOps Chat</h1>'
   ].join(''))
 })
 

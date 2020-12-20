@@ -48,7 +48,6 @@ function Channel({ channel }) {
     setMessages([])
     await axios.get(process.env.REACT_APP_API_BASE_URL + `/channels/${channel.id}/messages`)
       .then((response) => {
-        console.log(response)
         if (response.status === 200) {
             let messages = response.data;
             setMessages(messages)
