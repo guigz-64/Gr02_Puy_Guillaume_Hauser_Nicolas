@@ -1,5 +1,7 @@
 # Gr02_Puy_Guillaume_Hauser_Nicolas
 
+This program generate an instant messaging.
+
 ## Run le backend :
 
 ### Lancement classique
